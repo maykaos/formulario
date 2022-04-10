@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario | MK</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="figure">
+    <div class="box"> 
+<form action="">
+    <fieldset><legend><b>Inscreva-se</b></legend>
+
+    <div class="inputBox"> <input type="text" name="nome" id="nome" class="inputUser" required>
+        <label for="nome" class="labelImput">Nome Completo</label>
+    </div><br><br>
+
+    <div class="inputBox"> <input type="text" name="email" id="email" class="inputUser" required>
+        <label for="email" class="labelImput">Email</label>
+    </div><br><br>
+
+    <div class="inputBox"> <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+        <label for="telefone" class="labelImput">Telefone</label>
+    </div><br><br>
+    <p>Sexo:</p>
+    <input type="radio" id="feminino" name="genero" value="feminino" required>
+    <label for="feminino">Feminino</label><br>
+    <input type="radio" id="masculino" name="genero" value="masculino" required>
+    <label for="masculino">masculino</label><br>
+    <input type="radio" id="Outros" name="genero" value="outros" required>
+    <label for="outros">outros</label><br><br>
+
+    <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+ <input type="date" name="data_nascimento" id="data_nascimento" required><br><br>
+
+ <div class="inputBox"> <input type="text" name="cidade" id="cidade" class="inputUser" required>
+    <label for="cidade" class="labelImput">Cidade</label>
+</div><br><br>
+<div class="inputBox"> <input type="text" name="estado" id="estado" class="inputUser" required>
+    <label for="estado" class="labelImput">estado</label>
+</div><br><br>
+<div class="inputBox"> <input type="text" name="endereco" id="endereco" class="inputUser" required>
+    <label for="endereco" class="labelImput">Endereço</label>
+</div><br><br>
+
+<input type="submit" name="submit" id="submit">
+   </fieldset>
+  </form>
+ </div>
+</body>
+<footer>Produzido por Maykão&copy;</footer>
+</html>
